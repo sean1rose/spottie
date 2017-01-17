@@ -1,0 +1,2112 @@
+{
+    "objectOfPlayers": {
+        "Brandin Cooks": {
+            "playerName": "Brandin Cooks",
+            "rank": 1,
+            "team": "NO",
+            "targets": 9,
+            "catches": 6,
+            "fantasyPoints": 27,
+            "pointsPerTarget": 3
+        },
+        "Antonio Brown": {
+            "playerName": "Antonio Brown",
+            "rank": 2,
+            "team": "PIT",
+            "targets": 11,
+            "catches": 8,
+            "fantasyPoints": 25,
+            "pointsPerTarget": 2.272727272727273
+        },
+        "A.J. Green": {
+            "playerName": "A.J. Green",
+            "rank": 3,
+            "team": "CIN",
+            "targets": 13,
+            "catches": 12,
+            "fantasyPoints": 24,
+            "pointsPerTarget": 1.8461538461538463
+        },
+        "Willie Snead IV": {
+            "playerName": "Willie Snead IV",
+            "rank": 4,
+            "team": "NO",
+            "targets": 9,
+            "catches": 9,
+            "fantasyPoints": 23,
+            "pointsPerTarget": 2.5555555555555554
+        },
+        "Larry Fitzgerald": {
+            "playerName": "Larry Fitzgerald",
+            "rank": 5,
+            "team": "ARI",
+            "targets": 10,
+            "catches": 8,
+            "fantasyPoints": 20,
+            "pointsPerTarget": 2
+        },
+        "Jordan Matthews": {
+            "playerName": "Jordan Matthews",
+            "rank": 6,
+            "team": "PHI",
+            "targets": 14,
+            "catches": 7,
+            "fantasyPoints": 17,
+            "pointsPerTarget": 1.2142857142857142
+        },
+        "Will Fuller": {
+            "playerName": "Will Fuller",
+            "rank": 7,
+            "team": "HOU",
+            "targets": 11,
+            "catches": 5,
+            "fantasyPoints": 17,
+            "pointsPerTarget": 1.5454545454545454
+        },
+        "Mike Wallace": {
+            "playerName": "Mike Wallace",
+            "rank": 8,
+            "team": "BAL",
+            "targets": 6,
+            "catches": 3,
+            "fantasyPoints": 16,
+            "pointsPerTarget": 2.6666666666666665
+        },
+        "Mike Evans": {
+            "playerName": "Mike Evans",
+            "rank": 9,
+            "team": "TB",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 16,
+            "pointsPerTarget": 2.2857142857142856
+        },
+        "Doug Baldwin": {
+            "playerName": "Doug Baldwin",
+            "rank": 10,
+            "team": "SEA",
+            "targets": 11,
+            "catches": 9,
+            "fantasyPoints": 15,
+            "pointsPerTarget": 1.3636363636363635
+        },
+        "Kelvin Benjamin": {
+            "playerName": "Kelvin Benjamin",
+            "rank": 11,
+            "team": "CAR",
+            "targets": 12,
+            "catches": 6,
+            "fantasyPoints": 15,
+            "pointsPerTarget": 1.25
+        },
+        "Mohamed Sanu": {
+            "playerName": "Mohamed Sanu",
+            "rank": 12,
+            "team": "ATL",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 14,
+            "pointsPerTarget": 1.75
+        },
+        "Amari Cooper": {
+            "playerName": "Amari Cooper",
+            "rank": 13,
+            "team": "OAK",
+            "targets": 11,
+            "catches": 6,
+            "fantasyPoints": 14,
+            "pointsPerTarget": 1.2727272727272727
+        },
+        "Julio Jones": {
+            "playerName": "Julio Jones",
+            "rank": 14,
+            "team": "ATL",
+            "targets": 8,
+            "catches": 4,
+            "fantasyPoints": 13,
+            "pointsPerTarget": 1.625
+        },
+        "Donte Moncrief": {
+            "playerName": "Donte Moncrief",
+            "rank": 15,
+            "team": "IND",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        "Jeremy Maclin": {
+            "playerName": "Jeremy Maclin",
+            "rank": 16,
+            "team": "KC",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        "Chris Hogan": {
+            "playerName": "Chris Hogan",
+            "rank": 17,
+            "team": "NE",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 3
+        },
+        "Eli Rogers": {
+            "playerName": "Eli Rogers",
+            "rank": 18,
+            "team": "PIT",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        "Eddie Royal": {
+            "playerName": "Eddie Royal",
+            "rank": 19,
+            "team": "CHI",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 2
+        },
+        "Nelson Agholor": {
+            "playerName": "Nelson Agholor",
+            "rank": 20,
+            "team": "PHI",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 2.4
+        },
+        "Quincy Enunwa": {
+            "playerName": "Quincy Enunwa",
+            "rank": 21,
+            "team": "NYJ",
+            "targets": 8,
+            "catches": 7,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.375
+        },
+        "DeAndre Hopkins": {
+            "playerName": "DeAndre Hopkins",
+            "rank": 22,
+            "team": "HOU",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.375
+        },
+        "Davante Adams": {
+            "playerName": "Davante Adams",
+            "rank": 23,
+            "team": "GB",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.5714285714285714
+        },
+        "Alshon Jeffery": {
+            "playerName": "Alshon Jeffery",
+            "rank": 24,
+            "team": "CHI",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.6666666666666667
+        },
+        "Sterling Shepard": {
+            "playerName": "Sterling Shepard",
+            "rank": 25,
+            "team": "NYG",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 2.5
+        },
+        "Stefon Diggs": {
+            "playerName": "Stefon Diggs",
+            "rank": 26,
+            "team": "MIN",
+            "targets": 9,
+            "catches": 7,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.1111111111111112
+        },
+        "DeSean Jackson": {
+            "playerName": "DeSean Jackson",
+            "rank": 27,
+            "team": "WAS",
+            "targets": 10,
+            "catches": 6,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1
+        },
+        "Eric Decker": {
+            "playerName": "Eric Decker",
+            "rank": 28,
+            "team": "NYJ",
+            "targets": 7,
+            "catches": 2,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.4285714285714286
+        },
+        "Phillip Dorsett": {
+            "playerName": "Phillip Dorsett",
+            "rank": 29,
+            "team": "IND",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1.5
+        },
+        "Victor Cruz": {
+            "playerName": "Victor Cruz",
+            "rank": 30,
+            "team": "NYG",
+            "targets": 4,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 2.25
+        },
+        "Jordy Nelson": {
+            "playerName": "Jordy Nelson",
+            "rank": 31,
+            "team": "GB",
+            "targets": 9,
+            "catches": 6,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1
+        },
+        "Brandon LaFell": {
+            "playerName": "Brandon LaFell",
+            "rank": 32,
+            "team": "CIN",
+            "targets": 4,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 2.25
+        },
+        "Michael Crabtree": {
+            "playerName": "Michael Crabtree",
+            "rank": 33,
+            "team": "OAK",
+            "targets": 9,
+            "catches": 7,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1
+        },
+        "Marvin Jones Jr.": {
+            "playerName": "Marvin Jones Jr.",
+            "rank": 34,
+            "team": "DET",
+            "targets": 10,
+            "catches": 4,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.8
+        },
+        "Julian Edelman": {
+            "playerName": "Julian Edelman",
+            "rank": 35,
+            "team": "NE",
+            "targets": 7,
+            "catches": 7,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 1.1428571428571428
+        },
+        "T.Y. Hilton": {
+            "playerName": "T.Y. Hilton",
+            "rank": 36,
+            "team": "IND",
+            "targets": 12,
+            "catches": 6,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        "Seth Roberts": {
+            "playerName": "Seth Roberts",
+            "rank": 37,
+            "team": "OAK",
+            "targets": 4,
+            "catches": 2,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 2
+        },
+        "Tajae Sharpe": {
+            "playerName": "Tajae Sharpe",
+            "rank": 38,
+            "team": "TEN",
+            "targets": 11,
+            "catches": 7,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.7272727272727273
+        },
+        "Allen Hurns": {
+            "playerName": "Allen Hurns",
+            "rank": 39,
+            "team": "JAC",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 1.6
+        },
+        "Odell Beckham Jr": {
+            "playerName": "Odell Beckham Jr",
+            "rank": 40,
+            "team": "NYG",
+            "targets": 8,
+            "catches": 4,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.875
+        },
+        "Allen Robinson": {
+            "playerName": "Allen Robinson",
+            "rank": 41,
+            "team": "JAC",
+            "targets": 15,
+            "catches": 6,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.4666666666666667
+        },
+        "Tyrell Williams": {
+            "playerName": "Tyrell Williams",
+            "rank": 42,
+            "team": "SD",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.4
+        },
+        "Tyreek Hill": {
+            "playerName": "Tyreek Hill",
+            "rank": 43,
+            "team": "KC",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 7
+        },
+        "Corey Coleman": {
+            "playerName": "Corey Coleman",
+            "rank": 44,
+            "team": "CLE",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.4
+        },
+        "Randall Cobb": {
+            "playerName": "Randall Cobb",
+            "rank": 45,
+            "team": "GB",
+            "targets": 8,
+            "catches": 6,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.875
+        },
+        "Terrelle Pryor Sr.": {
+            "playerName": "Terrelle Pryor Sr.",
+            "rank": 46,
+            "team": "CLE",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1
+        },
+        "Kenny Britt": {
+            "playerName": "Kenny Britt",
+            "rank": 47,
+            "team": "LA",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.1666666666666667
+        },
+        "Cole Beasley": {
+            "playerName": "Cole Beasley",
+            "rank": 48,
+            "team": "DAL",
+            "targets": 12,
+            "catches": 8,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.5
+        },
+        "Keenan Allen": {
+            "playerName": "Keenan Allen",
+            "rank": 49,
+            "team": "SD",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        "Jeremy Kerley": {
+            "playerName": "Jeremy Kerley",
+            "rank": 50,
+            "team": "SF",
+            "targets": 11,
+            "catches": 7,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.5454545454545454
+        },
+        "Michael Floyd": {
+            "playerName": "Michael Floyd",
+            "rank": 51,
+            "team": "ARI",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        "Quinton Patton": {
+            "playerName": "Quinton Patton",
+            "rank": 52,
+            "team": "SF",
+            "targets": 5,
+            "catches": 5,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 1.2
+        },
+        "Jarvis Landry": {
+            "playerName": "Jarvis Landry",
+            "rank": 53,
+            "team": "MIA",
+            "targets": 10,
+            "catches": 7,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.6
+        },
+        "Michael Thomas": {
+            "playerName": "Michael Thomas",
+            "rank": 54,
+            "team": "NO",
+            "targets": 6,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 1
+        },
+        "Jamison Crowder": {
+            "playerName": "Jamison Crowder",
+            "rank": 55,
+            "team": "WAS",
+            "targets": 10,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.6
+        },
+        "Jermaine Kearse": {
+            "playerName": "Jermaine Kearse",
+            "rank": 56,
+            "team": "SEA",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        "Sammie Coates": {
+            "playerName": "Sammie Coates",
+            "rank": 57,
+            "team": "PIT",
+            "targets": 3,
+            "catches": 2,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 2
+        },
+        "Adam Thielen": {
+            "playerName": "Adam Thielen",
+            "rank": 58,
+            "team": "MIN",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 1
+        },
+        "Pierre Garcon": {
+            "playerName": "Pierre Garcon",
+            "rank": 59,
+            "team": "WAS",
+            "targets": 6,
+            "catches": 6,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.8333333333333334
+        },
+        "Emmanuel Sanders": {
+            "playerName": "Emmanuel Sanders",
+            "rank": 60,
+            "team": "DEN",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.625
+        },
+        "Danny Amendola": {
+            "playerName": "Danny Amendola",
+            "rank": 61,
+            "team": "NE",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 1.25
+        },
+        "Demaryius Thomas": {
+            "playerName": "Demaryius Thomas",
+            "rank": 62,
+            "team": "DEN",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.8333333333333334
+        },
+        "Sammy Watkins": {
+            "playerName": "Sammy Watkins",
+            "rank": 63,
+            "team": "BUF",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        "Chris Conley": {
+            "playerName": "Chris Conley",
+            "rank": 64,
+            "team": "KC",
+            "targets": 7,
+            "catches": 4,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.5714285714285714
+        },
+        "Golden Tate": {
+            "playerName": "Golden Tate",
+            "rank": 65,
+            "team": "DET",
+            "targets": 7,
+            "catches": 7,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.5714285714285714
+        },
+        "Adam Humphries": {
+            "playerName": "Adam Humphries",
+            "rank": 66,
+            "team": "TB",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.8
+        },
+        "Anquan Boldin": {
+            "playerName": "Anquan Boldin",
+            "rank": 67,
+            "team": "DET",
+            "targets": 3,
+            "catches": 3,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 1.3333333333333333
+        },
+        "Breshad Perriman": {
+            "playerName": "Breshad Perriman",
+            "rank": 68,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 2
+        },
+        "Kevin White": {
+            "playerName": "Kevin White",
+            "rank": 69,
+            "team": "CHI",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.42857142857142855
+        },
+        "Terrance Williams": {
+            "playerName": "Terrance Williams",
+            "rank": 70,
+            "team": "DAL",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.75
+        },
+        "Malcolm Mitchell": {
+            "playerName": "Malcolm Mitchell",
+            "rank": 71,
+            "team": "NE",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.6
+        },
+        "Brandon Marshall": {
+            "playerName": "Brandon Marshall",
+            "rank": 72,
+            "team": "NYJ",
+            "targets": 8,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.375
+        },
+        "Travis Benjamin": {
+            "playerName": "Travis Benjamin",
+            "rank": 73,
+            "team": "SD",
+            "targets": 8,
+            "catches": 7,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.375
+        },
+        "Andre Johnson": {
+            "playerName": "Andre Johnson",
+            "rank": 74,
+            "team": "TEN",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.42857142857142855
+        },
+        "Rishard Matthews": {
+            "playerName": "Rishard Matthews",
+            "rank": 75,
+            "team": "TEN",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.75
+        },
+        "Ted Ginn, Jr.": {
+            "playerName": "Ted Ginn, Jr.",
+            "rank": 76,
+            "team": "CAR",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 2
+        },
+        "Tyler Boyd": {
+            "playerName": "Tyler Boyd",
+            "rank": 77,
+            "team": "CIN",
+            "targets": 3,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        "Brian Quick": {
+            "playerName": "Brian Quick",
+            "rank": 78,
+            "team": "LA",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        "Marqise Lee": {
+            "playerName": "Marqise Lee",
+            "rank": 79,
+            "team": "JAC",
+            "targets": 4,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.5
+        },
+        "Harry Douglas": {
+            "playerName": "Harry Douglas",
+            "rank": 80,
+            "team": "TEN",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        "Robert Woods": {
+            "playerName": "Robert Woods",
+            "rank": 81,
+            "team": "BUF",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        "Steve Smith Sr.": {
+            "playerName": "Steve Smith Sr.",
+            "rank": 82,
+            "team": "BAL",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.25
+        },
+        "Vincent Jackson": {
+            "playerName": "Vincent Jackson",
+            "rank": 83,
+            "team": "TB",
+            "targets": 7,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.2857142857142857
+        },
+        "Jaron Brown": {
+            "playerName": "Jaron Brown",
+            "rank": 84,
+            "team": "ARI",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 1
+        },
+        "Tyler Lockett": {
+            "playerName": "Tyler Lockett",
+            "rank": 85,
+            "team": "SEA",
+            "targets": 8,
+            "catches": 3,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.25
+        },
+        "Brice Butler": {
+            "playerName": "Brice Butler",
+            "rank": 86,
+            "team": "DAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 1
+        },
+        "Kenny Stills": {
+            "playerName": "Kenny Stills",
+            "rank": 87,
+            "team": "MIA",
+            "targets": 5,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        "Tavon Austin": {
+            "playerName": "Tavon Austin",
+            "rank": 88,
+            "team": "LA",
+            "targets": 12,
+            "catches": 4,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.16666666666666666
+        },
+        "Kamar Aiken": {
+            "playerName": "Kamar Aiken",
+            "rank": 89,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Cordarrelle Patterson": {
+            "playerName": "Cordarrelle Patterson",
+            "rank": 90,
+            "team": "MIN",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        "Leonte Carroo": {
+            "playerName": "Leonte Carroo",
+            "rank": 91,
+            "team": "MIA",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Dorial Green-Beckham": {
+            "playerName": "Dorial Green-Beckham",
+            "rank": 92,
+            "team": "PHI",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Torrey Smith": {
+            "playerName": "Torrey Smith",
+            "rank": 93,
+            "team": "SF",
+            "targets": 6,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.16666666666666666
+        },
+        "Chris Moore": {
+            "playerName": "Chris Moore",
+            "rank": 94,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Philly Brown": {
+            "playerName": "Philly Brown",
+            "rank": 95,
+            "team": "CAR",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "J.J. Nelson": {
+            "playerName": "J.J. Nelson",
+            "rank": 96,
+            "team": "ARI",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Paul Richardson": {
+            "playerName": "Paul Richardson",
+            "rank": 97,
+            "team": "SEA",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Russell Shepard": {
+            "playerName": "Russell Shepard",
+            "rank": 98,
+            "team": "TB",
+            "targets": 0,
+            "catches": 0,
+            "fantasyPoints": 1,
+            "pointsPerTarget": null
+        },
+        "Devin Funchess": {
+            "playerName": "Devin Funchess",
+            "rank": 99,
+            "team": "CAR",
+            "targets": 4,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.25
+        },
+        "Rashad Greene Sr.": {
+            "playerName": "Rashad Greene Sr.",
+            "rank": 100,
+            "team": "JAC",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        "Josh Doctson": {
+            "playerName": "Josh Doctson",
+            "rank": 101,
+            "team": "WAS",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        "Dez Bryant": {
+            "playerName": "Dez Bryant",
+            "rank": 102,
+            "team": "DAL",
+            "targets": 5,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.2
+        },
+        "Jared Abbrederis": {
+            "playerName": "Jared Abbrederis",
+            "rank": 103,
+            "team": "GB",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        "Andre Roberts": {
+            "playerName": "Andre Roberts",
+            "rank": 104,
+            "team": "DET",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        "John Brown": {
+            "playerName": "John Brown",
+            "rank": 105,
+            "team": "ARI",
+            "targets": 4,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.25
+        },
+        "Braxton Miller": {
+            "playerName": "Braxton Miller",
+            "rank": 106,
+            "team": "HOU",
+            "targets": 3,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.3333333333333333
+        },
+        "Dontrelle Inman": {
+            "playerName": "Dontrelle Inman",
+            "rank": 107,
+            "team": "SD",
+            "targets": 3,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.3333333333333333
+        },
+        "Charles Johnson": {
+            "playerName": "Charles Johnson",
+            "rank": 108,
+            "team": "MIN",
+            "targets": 6,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Albert Wilson": {
+            "playerName": "Albert Wilson",
+            "rank": 109,
+            "team": "KC",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "James Wright": {
+            "playerName": "James Wright",
+            "rank": 110,
+            "team": "CIN",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Greg Salas": {
+            "playerName": "Greg Salas",
+            "rank": 111,
+            "team": "BUF",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Justin Hardy": {
+            "playerName": "Justin Hardy",
+            "rank": 112,
+            "team": "ATL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Andre Holmes": {
+            "playerName": "Andre Holmes",
+            "rank": 113,
+            "team": "OAK",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Ryan Grant": {
+            "playerName": "Ryan Grant",
+            "rank": 114,
+            "team": "WAS",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Jordan Norwood": {
+            "playerName": "Jordan Norwood",
+            "rank": 115,
+            "team": "DEN",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Josh Huff": {
+            "playerName": "Josh Huff",
+            "rank": 116,
+            "team": "PHI",
+            "targets": 3,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        "Andrew Hawkins": {
+            "playerName": "Andrew Hawkins",
+            "rank": 117,
+            "team": "CLE",
+            "targets": 3,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        }
+    },
+    "arrayOfPlayers": [
+        {
+            "playerName": "Brandin Cooks",
+            "rank": 1,
+            "team": "NO",
+            "targets": 9,
+            "catches": 6,
+            "fantasyPoints": 27,
+            "pointsPerTarget": 3
+        },
+        {
+            "playerName": "Antonio Brown",
+            "rank": 2,
+            "team": "PIT",
+            "targets": 11,
+            "catches": 8,
+            "fantasyPoints": 25,
+            "pointsPerTarget": 2.272727272727273
+        },
+        {
+            "playerName": "A.J. Green",
+            "rank": 3,
+            "team": "CIN",
+            "targets": 13,
+            "catches": 12,
+            "fantasyPoints": 24,
+            "pointsPerTarget": 1.8461538461538463
+        },
+        {
+            "playerName": "Willie Snead IV",
+            "rank": 4,
+            "team": "NO",
+            "targets": 9,
+            "catches": 9,
+            "fantasyPoints": 23,
+            "pointsPerTarget": 2.5555555555555554
+        },
+        {
+            "playerName": "Larry Fitzgerald",
+            "rank": 5,
+            "team": "ARI",
+            "targets": 10,
+            "catches": 8,
+            "fantasyPoints": 20,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Jordan Matthews",
+            "rank": 6,
+            "team": "PHI",
+            "targets": 14,
+            "catches": 7,
+            "fantasyPoints": 17,
+            "pointsPerTarget": 1.2142857142857142
+        },
+        {
+            "playerName": "Will Fuller",
+            "rank": 7,
+            "team": "HOU",
+            "targets": 11,
+            "catches": 5,
+            "fantasyPoints": 17,
+            "pointsPerTarget": 1.5454545454545454
+        },
+        {
+            "playerName": "Mike Wallace",
+            "rank": 8,
+            "team": "BAL",
+            "targets": 6,
+            "catches": 3,
+            "fantasyPoints": 16,
+            "pointsPerTarget": 2.6666666666666665
+        },
+        {
+            "playerName": "Mike Evans",
+            "rank": 9,
+            "team": "TB",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 16,
+            "pointsPerTarget": 2.2857142857142856
+        },
+        {
+            "playerName": "Doug Baldwin",
+            "rank": 10,
+            "team": "SEA",
+            "targets": 11,
+            "catches": 9,
+            "fantasyPoints": 15,
+            "pointsPerTarget": 1.3636363636363635
+        },
+        {
+            "playerName": "Kelvin Benjamin",
+            "rank": 11,
+            "team": "CAR",
+            "targets": 12,
+            "catches": 6,
+            "fantasyPoints": 15,
+            "pointsPerTarget": 1.25
+        },
+        {
+            "playerName": "Mohamed Sanu",
+            "rank": 12,
+            "team": "ATL",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 14,
+            "pointsPerTarget": 1.75
+        },
+        {
+            "playerName": "Amari Cooper",
+            "rank": 13,
+            "team": "OAK",
+            "targets": 11,
+            "catches": 6,
+            "fantasyPoints": 14,
+            "pointsPerTarget": 1.2727272727272727
+        },
+        {
+            "playerName": "Julio Jones",
+            "rank": 14,
+            "team": "ATL",
+            "targets": 8,
+            "catches": 4,
+            "fantasyPoints": 13,
+            "pointsPerTarget": 1.625
+        },
+        {
+            "playerName": "Donte Moncrief",
+            "rank": 15,
+            "team": "IND",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        {
+            "playerName": "Jeremy Maclin",
+            "rank": 16,
+            "team": "KC",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        {
+            "playerName": "Chris Hogan",
+            "rank": 17,
+            "team": "NE",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 3
+        },
+        {
+            "playerName": "Eli Rogers",
+            "rank": 18,
+            "team": "PIT",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 1.7142857142857142
+        },
+        {
+            "playerName": "Eddie Royal",
+            "rank": 19,
+            "team": "CHI",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Nelson Agholor",
+            "rank": 20,
+            "team": "PHI",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 12,
+            "pointsPerTarget": 2.4
+        },
+        {
+            "playerName": "Quincy Enunwa",
+            "rank": 21,
+            "team": "NYJ",
+            "targets": 8,
+            "catches": 7,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.375
+        },
+        {
+            "playerName": "DeAndre Hopkins",
+            "rank": 22,
+            "team": "HOU",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.375
+        },
+        {
+            "playerName": "Davante Adams",
+            "rank": 23,
+            "team": "GB",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 11,
+            "pointsPerTarget": 1.5714285714285714
+        },
+        {
+            "playerName": "Alshon Jeffery",
+            "rank": 24,
+            "team": "CHI",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.6666666666666667
+        },
+        {
+            "playerName": "Sterling Shepard",
+            "rank": 25,
+            "team": "NYG",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 2.5
+        },
+        {
+            "playerName": "Stefon Diggs",
+            "rank": 26,
+            "team": "MIN",
+            "targets": 9,
+            "catches": 7,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.1111111111111112
+        },
+        {
+            "playerName": "DeSean Jackson",
+            "rank": 27,
+            "team": "WAS",
+            "targets": 10,
+            "catches": 6,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Eric Decker",
+            "rank": 28,
+            "team": "NYJ",
+            "targets": 7,
+            "catches": 2,
+            "fantasyPoints": 10,
+            "pointsPerTarget": 1.4285714285714286
+        },
+        {
+            "playerName": "Phillip Dorsett",
+            "rank": 29,
+            "team": "IND",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1.5
+        },
+        {
+            "playerName": "Victor Cruz",
+            "rank": 30,
+            "team": "NYG",
+            "targets": 4,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 2.25
+        },
+        {
+            "playerName": "Jordy Nelson",
+            "rank": 31,
+            "team": "GB",
+            "targets": 9,
+            "catches": 6,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Brandon LaFell",
+            "rank": 32,
+            "team": "CIN",
+            "targets": 4,
+            "catches": 4,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 2.25
+        },
+        {
+            "playerName": "Michael Crabtree",
+            "rank": 33,
+            "team": "OAK",
+            "targets": 9,
+            "catches": 7,
+            "fantasyPoints": 9,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Marvin Jones Jr.",
+            "rank": 34,
+            "team": "DET",
+            "targets": 10,
+            "catches": 4,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.8
+        },
+        {
+            "playerName": "Julian Edelman",
+            "rank": 35,
+            "team": "NE",
+            "targets": 7,
+            "catches": 7,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 1.1428571428571428
+        },
+        {
+            "playerName": "T.Y. Hilton",
+            "rank": 36,
+            "team": "IND",
+            "targets": 12,
+            "catches": 6,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        {
+            "playerName": "Seth Roberts",
+            "rank": 37,
+            "team": "OAK",
+            "targets": 4,
+            "catches": 2,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Tajae Sharpe",
+            "rank": 38,
+            "team": "TEN",
+            "targets": 11,
+            "catches": 7,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 0.7272727272727273
+        },
+        {
+            "playerName": "Allen Hurns",
+            "rank": 39,
+            "team": "JAC",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 8,
+            "pointsPerTarget": 1.6
+        },
+        {
+            "playerName": "Odell Beckham Jr",
+            "rank": 40,
+            "team": "NYG",
+            "targets": 8,
+            "catches": 4,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.875
+        },
+        {
+            "playerName": "Allen Robinson",
+            "rank": 41,
+            "team": "JAC",
+            "targets": 15,
+            "catches": 6,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.4666666666666667
+        },
+        {
+            "playerName": "Tyrell Williams",
+            "rank": 42,
+            "team": "SD",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.4
+        },
+        {
+            "playerName": "Tyreek Hill",
+            "rank": 43,
+            "team": "KC",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 7
+        },
+        {
+            "playerName": "Corey Coleman",
+            "rank": 44,
+            "team": "CLE",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.4
+        },
+        {
+            "playerName": "Randall Cobb",
+            "rank": 45,
+            "team": "GB",
+            "targets": 8,
+            "catches": 6,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 0.875
+        },
+        {
+            "playerName": "Terrelle Pryor Sr.",
+            "rank": 46,
+            "team": "CLE",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Kenny Britt",
+            "rank": 47,
+            "team": "LA",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 7,
+            "pointsPerTarget": 1.1666666666666667
+        },
+        {
+            "playerName": "Cole Beasley",
+            "rank": 48,
+            "team": "DAL",
+            "targets": 12,
+            "catches": 8,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Keenan Allen",
+            "rank": 49,
+            "team": "SD",
+            "targets": 7,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        {
+            "playerName": "Jeremy Kerley",
+            "rank": 50,
+            "team": "SF",
+            "targets": 11,
+            "catches": 7,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.5454545454545454
+        },
+        {
+            "playerName": "Michael Floyd",
+            "rank": 51,
+            "team": "ARI",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        {
+            "playerName": "Quinton Patton",
+            "rank": 52,
+            "team": "SF",
+            "targets": 5,
+            "catches": 5,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 1.2
+        },
+        {
+            "playerName": "Jarvis Landry",
+            "rank": 53,
+            "team": "MIA",
+            "targets": 10,
+            "catches": 7,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.6
+        },
+        {
+            "playerName": "Michael Thomas",
+            "rank": 54,
+            "team": "NO",
+            "targets": 6,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Jamison Crowder",
+            "rank": 55,
+            "team": "WAS",
+            "targets": 10,
+            "catches": 6,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.6
+        },
+        {
+            "playerName": "Jermaine Kearse",
+            "rank": 56,
+            "team": "SEA",
+            "targets": 7,
+            "catches": 5,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 0.8571428571428571
+        },
+        {
+            "playerName": "Sammie Coates",
+            "rank": 57,
+            "team": "PIT",
+            "targets": 3,
+            "catches": 2,
+            "fantasyPoints": 6,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Adam Thielen",
+            "rank": 58,
+            "team": "MIN",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Pierre Garcon",
+            "rank": 59,
+            "team": "WAS",
+            "targets": 6,
+            "catches": 6,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.8333333333333334
+        },
+        {
+            "playerName": "Emmanuel Sanders",
+            "rank": 60,
+            "team": "DEN",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.625
+        },
+        {
+            "playerName": "Danny Amendola",
+            "rank": 61,
+            "team": "NE",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 1.25
+        },
+        {
+            "playerName": "Demaryius Thomas",
+            "rank": 62,
+            "team": "DEN",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 5,
+            "pointsPerTarget": 0.8333333333333334
+        },
+        {
+            "playerName": "Sammy Watkins",
+            "rank": 63,
+            "team": "BUF",
+            "targets": 6,
+            "catches": 4,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        {
+            "playerName": "Chris Conley",
+            "rank": 64,
+            "team": "KC",
+            "targets": 7,
+            "catches": 4,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.5714285714285714
+        },
+        {
+            "playerName": "Golden Tate",
+            "rank": 65,
+            "team": "DET",
+            "targets": 7,
+            "catches": 7,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.5714285714285714
+        },
+        {
+            "playerName": "Adam Humphries",
+            "rank": 66,
+            "team": "TB",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 0.8
+        },
+        {
+            "playerName": "Anquan Boldin",
+            "rank": 67,
+            "team": "DET",
+            "targets": 3,
+            "catches": 3,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 1.3333333333333333
+        },
+        {
+            "playerName": "Breshad Perriman",
+            "rank": 68,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 4,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Kevin White",
+            "rank": 69,
+            "team": "CHI",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.42857142857142855
+        },
+        {
+            "playerName": "Terrance Williams",
+            "rank": 70,
+            "team": "DAL",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.75
+        },
+        {
+            "playerName": "Malcolm Mitchell",
+            "rank": 71,
+            "team": "NE",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.6
+        },
+        {
+            "playerName": "Brandon Marshall",
+            "rank": 72,
+            "team": "NYJ",
+            "targets": 8,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.375
+        },
+        {
+            "playerName": "Travis Benjamin",
+            "rank": 73,
+            "team": "SD",
+            "targets": 8,
+            "catches": 7,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.375
+        },
+        {
+            "playerName": "Andre Johnson",
+            "rank": 74,
+            "team": "TEN",
+            "targets": 7,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.42857142857142855
+        },
+        {
+            "playerName": "Rishard Matthews",
+            "rank": 75,
+            "team": "TEN",
+            "targets": 4,
+            "catches": 3,
+            "fantasyPoints": 3,
+            "pointsPerTarget": 0.75
+        },
+        {
+            "playerName": "Ted Ginn, Jr.",
+            "rank": 76,
+            "team": "CAR",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 2
+        },
+        {
+            "playerName": "Tyler Boyd",
+            "rank": 77,
+            "team": "CIN",
+            "targets": 3,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.6666666666666666
+        },
+        {
+            "playerName": "Brian Quick",
+            "rank": 78,
+            "team": "LA",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        {
+            "playerName": "Marqise Lee",
+            "rank": 79,
+            "team": "JAC",
+            "targets": 4,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Harry Douglas",
+            "rank": 80,
+            "team": "TEN",
+            "targets": 5,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        {
+            "playerName": "Robert Woods",
+            "rank": 81,
+            "team": "BUF",
+            "targets": 5,
+            "catches": 4,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        {
+            "playerName": "Steve Smith Sr.",
+            "rank": 82,
+            "team": "BAL",
+            "targets": 8,
+            "catches": 5,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.25
+        },
+        {
+            "playerName": "Vincent Jackson",
+            "rank": 83,
+            "team": "TB",
+            "targets": 7,
+            "catches": 2,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.2857142857142857
+        },
+        {
+            "playerName": "Jaron Brown",
+            "rank": 84,
+            "team": "ARI",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Tyler Lockett",
+            "rank": 85,
+            "team": "SEA",
+            "targets": 8,
+            "catches": 3,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.25
+        },
+        {
+            "playerName": "Brice Butler",
+            "rank": 86,
+            "team": "DAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Kenny Stills",
+            "rank": 87,
+            "team": "MIA",
+            "targets": 5,
+            "catches": 1,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.4
+        },
+        {
+            "playerName": "Tavon Austin",
+            "rank": 88,
+            "team": "LA",
+            "targets": 12,
+            "catches": 4,
+            "fantasyPoints": 2,
+            "pointsPerTarget": 0.16666666666666666
+        },
+        {
+            "playerName": "Kamar Aiken",
+            "rank": 89,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Cordarrelle Patterson",
+            "rank": 90,
+            "team": "MIN",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Leonte Carroo",
+            "rank": 91,
+            "team": "MIA",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Dorial Green-Beckham",
+            "rank": 92,
+            "team": "PHI",
+            "targets": 2,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Torrey Smith",
+            "rank": 93,
+            "team": "SF",
+            "targets": 6,
+            "catches": 2,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.16666666666666666
+        },
+        {
+            "playerName": "Chris Moore",
+            "rank": 94,
+            "team": "BAL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Philly Brown",
+            "rank": 95,
+            "team": "CAR",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "J.J. Nelson",
+            "rank": 96,
+            "team": "ARI",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Paul Richardson",
+            "rank": 97,
+            "team": "SEA",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Russell Shepard",
+            "rank": 98,
+            "team": "TB",
+            "targets": 0,
+            "catches": 0,
+            "fantasyPoints": 1,
+            "pointsPerTarget": null
+        },
+        {
+            "playerName": "Devin Funchess",
+            "rank": 99,
+            "team": "CAR",
+            "targets": 4,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.25
+        },
+        {
+            "playerName": "Rashad Greene Sr.",
+            "rank": 100,
+            "team": "JAC",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.5
+        },
+        {
+            "playerName": "Josh Doctson",
+            "rank": 101,
+            "team": "WAS",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Dez Bryant",
+            "rank": 102,
+            "team": "DAL",
+            "targets": 5,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.2
+        },
+        {
+            "playerName": "Jared Abbrederis",
+            "rank": 103,
+            "team": "GB",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "Andre Roberts",
+            "rank": 104,
+            "team": "DET",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 1
+        },
+        {
+            "playerName": "John Brown",
+            "rank": 105,
+            "team": "ARI",
+            "targets": 4,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.25
+        },
+        {
+            "playerName": "Braxton Miller",
+            "rank": 106,
+            "team": "HOU",
+            "targets": 3,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.3333333333333333
+        },
+        {
+            "playerName": "Dontrelle Inman",
+            "rank": 107,
+            "team": "SD",
+            "targets": 3,
+            "catches": 1,
+            "fantasyPoints": 1,
+            "pointsPerTarget": 0.3333333333333333
+        },
+        {
+            "playerName": "Charles Johnson",
+            "rank": 108,
+            "team": "MIN",
+            "targets": 6,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Albert Wilson",
+            "rank": 109,
+            "team": "KC",
+            "targets": 5,
+            "catches": 3,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "James Wright",
+            "rank": 110,
+            "team": "CIN",
+            "targets": 1,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Greg Salas",
+            "rank": 111,
+            "team": "BUF",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Justin Hardy",
+            "rank": 112,
+            "team": "ATL",
+            "targets": 2,
+            "catches": 1,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Andre Holmes",
+            "rank": 113,
+            "team": "OAK",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Ryan Grant",
+            "rank": 114,
+            "team": "WAS",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Jordan Norwood",
+            "rank": 115,
+            "team": "DEN",
+            "targets": 1,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Josh Huff",
+            "rank": 116,
+            "team": "PHI",
+            "targets": 3,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        },
+        {
+            "playerName": "Andrew Hawkins",
+            "rank": 117,
+            "team": "CLE",
+            "targets": 3,
+            "catches": 0,
+            "fantasyPoints": 0,
+            "pointsPerTarget": 0
+        }
+    ]
+}
