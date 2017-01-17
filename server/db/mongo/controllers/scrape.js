@@ -55,9 +55,6 @@ export function scrape(req, response) {
         });
         // console.log('finalObj - ', finalObj);
       }
-      fs.writeFile('output.json', JSON.stringify(finalObj, null, 4), (error) => {
-        console.log('CHECK FOR OUTPUT.JSON!!!')
-      });
       return response.json(finalObj);
     });
 }
