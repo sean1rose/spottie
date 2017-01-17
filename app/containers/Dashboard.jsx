@@ -14,25 +14,42 @@ class Dashboard extends Component {
   constructor() {
     super();
     this.state = ({
-      arrayOfPlayers: [],
-      objectOfPlayers: {}
+      week1ArrayOfPlayers: [],
+      week1ObjectOfPlayers: {},
+      seasonArrayOfPlayers: [],
+      seasonObjectOfPlayers: {}
     });
   }
 
   componentDidMount() {
-    var options = {
+    var optionsWeek1 = {
       method: 'get',
-      url: '/scrape',
+      url: '/wrweek1',
       responseType: 'json'
     };
-    axios(options)
+    axios(optionsWeek1)
       .then(res => {
         console.log('DB - res -> ', res.data);
         this.setState({
-          arrayOfPlayers: res.data.arrayOfPlayers,
-          objectOfPlayers: res.data.objectOfPlayers
+          week1ArrayOfPlayers: res.data.arrayOfPlayers,
+          week1ObjectOfPlayers: res.data.objectOfPlayers
         });
-        console.log('this.state!!! - ', this.state);
+        console.log('1 this.state!!! WEEK 1 - ', this.state);
+      });
+
+    var optionsSeason = {
+      method: 'get',
+      url: '/wrseason2016',
+      responseType: 'json'
+    };
+    axios(optionsSeason)
+      .then(res => {
+        console.log('DB - res -> ', res.data);
+        this.setState({
+          seasonArrayOfPlayers: res.data.arrayOfPlayers,
+          seasonObjectOfPlayers: res.data.objectOfPlayers
+        });
+        console.log('2 this.state!!! SEASON TOTAL - ', this.state);
       });
 
   }

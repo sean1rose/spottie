@@ -10,7 +10,8 @@ const topicsController = controllers && controllers.topics;
 const scrapeController = controllers && controllers.scrape;
 
 export default (app) => {
-  app.get('/scrape', scrapeController.scrape);
+  app.get('/wrweek1', scrapeController.wrweek1);
+  app.get('/wrseason2016', scrapeController.wrseason2016);
 
   // user routes
   if (usersController) {
