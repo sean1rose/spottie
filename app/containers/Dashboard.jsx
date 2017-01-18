@@ -19,10 +19,13 @@ class Dashboard extends Component {
       array_receivers_season_2016: [],
       object_receivers_season_2016: {},
 
-      array_runningbacks_week_1: [],
-      object_runningbacks_week1: {},
-      array_runningbacks_season_2016: [],
-      object_runningbacks_season_2016: {}
+      array_rb_week_1: [],
+      object_rb_week_1: {},
+      array_rb_week_2: [],
+      object_rb_week_2: {},
+
+      array_rb_season_2016: [],
+      object_rb_season_2016: {}
     });
   }
 
@@ -57,6 +60,43 @@ class Dashboard extends Component {
         console.log('2 this.state!!! WR SEASON TOTAL - ', this.state);
       });
     
+
+      // LEFT OFF HERE: NEED TO SET UP DRY FETCH SEASON FUNCTION....
+
+
+    const fetchWeek = (pos, weekNumber) => {
+      var tmpUrl = `/${pos}week${weekNumber}`;
+      const config = {
+        method: 'get',
+        url: tmpUrl,
+        responseType: 'json'
+      }
+      return axios(config)
+        .then(res => {
+          return res;
+        });
+    }
+
+    // sets state for week 1
+    fetchWeek('rb', 1)
+      .then(res => {
+        console.log('fetchweek 1 promise returns - ', res);
+        this.setState({
+          array_rb_week_1: res.data.rbArray,
+          object_rb_week_1: res.data.rbObject
+        });
+      });
+    fetchWeek('rb', 2)
+      .then(res => {
+        console.log('fetchweek 2 promise returns - ', res);
+        this.setState({
+          array_rb_week_2: res.data.rbArray,
+          object_rb_week_2: res.data.rbObject
+        });        
+      })
+
+    // RUNNING BACKS
+    /*
     var rbOptionsWeek1 = {
       method: 'get',
       url: '/rbweek1',
@@ -87,6 +127,7 @@ class Dashboard extends Component {
         console.log('4 this.state!!! RB SEASON TOTAL - ', this.state);
         console.log('#1 running back of the season is ', this.state.array_runningbacks_season_2016[0].playerName, ' @ ', this.state.array_runningbacks_season_2016[0].fantasyPtsPerGame, ' fantasy pts/gm');
       });
+      */
 
   }
 

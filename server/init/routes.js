@@ -14,6 +14,7 @@ export default (app) => {
   app.get('/wrweek1', widereceiversController.week1);
   app.get('/wrseason2016', widereceiversController.season2016);
   app.get('/rbweek1', runningbacksController.week1);
+  app.get('/rbweek2', runningbacksController.week2);
   app.get('/rbseason2016', runningbacksController.season2016);
 
   // user routes
