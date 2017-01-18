@@ -14,42 +14,78 @@ class Dashboard extends Component {
   constructor() {
     super();
     this.state = ({
-      week1ArrayOfPlayers: [],
-      week1ObjectOfPlayers: {},
-      seasonArrayOfPlayers: [],
-      seasonObjectOfPlayers: {}
+      array_receivers_week_1: [],
+      object_receivers_week1: {},
+      array_receivers_season_2016: [],
+      object_receivers_season_2016: {},
+
+      array_runningbacks_week_1: [],
+      object_runningbacks_week1: {},
+      array_runningbacks_season_2016: [],
+      object_runningbacks_season_2016: {}
     });
   }
 
   componentDidMount() {
-    var optionsWeek1 = {
+    var wrOptionsWeek1 = {
       method: 'get',
       url: '/wrweek1',
       responseType: 'json'
     };
-    axios(optionsWeek1)
+    axios(wrOptionsWeek1)
       .then(res => {
-        console.log('DB - res -> ', res.data);
+        console.log(' wr week 1- res -> ', res.data);
         this.setState({
-          week1ArrayOfPlayers: res.data.arrayOfPlayers,
-          week1ObjectOfPlayers: res.data.objectOfPlayers
+          array_receivers_week_1: res.data.arrayOfPlayers,
+          object_receivers_week1: res.data.objectOfPlayers
         });
-        console.log('1 this.state!!! WEEK 1 - ', this.state);
+        console.log('1. this.state!!! WR WEEK 1 - ', this.state);
       });
 
-    var optionsSeason = {
+    var wrOptionsSeason = {
       method: 'get',
       url: '/wrseason2016',
       responseType: 'json'
     };
-    axios(optionsSeason)
+    axios(wrOptionsSeason)
       .then(res => {
-        console.log('DB - res -> ', res.data);
+        console.log('wr 2016 season - res -> ', res.data);
         this.setState({
-          seasonArrayOfPlayers: res.data.arrayOfPlayers,
-          seasonObjectOfPlayers: res.data.objectOfPlayers
+          array_receivers_season_2016: res.data.arrayOfPlayers,
+          object_receivers_season_2016: res.data.objectOfPlayers
         });
-        console.log('2 this.state!!! SEASON TOTAL - ', this.state);
+        console.log('2 this.state!!! WR SEASON TOTAL - ', this.state);
+      });
+    
+    var rbOptionsWeek1 = {
+      method: 'get',
+      url: '/rbweek1',
+      responseType: 'json'
+    };
+    axios(rbOptionsWeek1)
+      .then(res => {
+        console.log('rb week 1 res - ', res.data);
+        this.setState({
+          array_runningbacks_week_1: res.data.rbArray,
+          object_runningbacks_week1: res.data.rbObject
+        });
+        console.log('3. this.state!!! RB WEEK 1 - ', this.state);
+      });
+
+    var rbOptionsSeason = {
+      method: 'get',
+      url: '/rbseason2016',
+      responseType: 'json'
+    };
+    axios(rbOptionsSeason)
+      .then(res => {
+        console.log('rb 2016 season - ', res.data);
+        this.setState({
+          array_runningbacks_season_2016: res.data.rbArray,
+          object_runningbacks_season_2016: res.data.rbObject
+        });
+        console.log('4 this.state!!! RB SEASON TOTAL - ', this.state);
+        console.log('#1 running back of the season is ', this.state.array_runningbacks_season_2016[0].playerName, ' @ ', this.state.array_runningbacks_season_2016[0].fantasyPtsPerGame, ' fantasy pts/gm');
       });
 
   }
@@ -57,7 +93,9 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        HELLO
+        <div>
+        2016 Best Runningbacks:
+        </div>
       </div>
     )
   }

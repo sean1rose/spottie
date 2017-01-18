@@ -5,9 +5,9 @@ import request from 'request';
 import fs from 'fs';
 
 /**
- * Scrape wr week 1
+ * Scrape WRs week 1
  */
-export function wrweek1(req, response) {
+export function week1(req, response) {
   // scrape data + add to db
     // scrape here...
   var finalUrl = 'http://thehuddle.com/stats/2016/plays_weekly.php?week=1&pos=wr&col=FPTS&ccs=6';
@@ -38,16 +38,18 @@ export function wrweek1(req, response) {
         var pointsPerTarget = (fantasyPts / targets);
         
         var playerObj = {};
-        playerObj['playerName'] = playerName;
         playerObj['rank'] = rank;
+        playerObj['playerName'] = playerName;
         playerObj['team'] = team;
         playerObj['targets'] = targets;
         playerObj['catches'] = catches;
         playerObj['fantasyPoints'] = fantasyPts;
         playerObj['pointsPerTarget'] = pointsPerTarget;
 
+        // can look up alphabetically
         objectOfPlayers[playerName] = playerObj;
 
+        // organized by weekly rank
         arrayOfPlayers.push(playerObj);
 
         finalObj['objectOfPlayers'] = objectOfPlayers;
@@ -59,8 +61,10 @@ export function wrweek1(req, response) {
   });
 }
 
-
-export function wrseason2016(req, response) {
+/**
+ * Scrape WRs 2016 Season
+ */
+export function season2016(req, response) {
   // scrape data + add to db
     // scrape here...
   var finalUrl = 'http://thehuddle.com/stats/2016/plays_std.php?ccs=6&pos=wr';
@@ -119,6 +123,6 @@ export function wrseason2016(req, response) {
 }
 
 export default {
-  wrweek1,
-  wrseason2016
+  week1,
+  season2016
 };

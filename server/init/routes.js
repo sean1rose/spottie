@@ -7,11 +7,14 @@ import { controllers, passport as passportConfig } from '../db';
 
 const usersController = controllers && controllers.users;
 const topicsController = controllers && controllers.topics;
-const scrapeController = controllers && controllers.scrape;
+const widereceiversController = controllers && controllers.widereceivers;
+const runningbacksController = controllers && controllers.runningbacks;
 
 export default (app) => {
-  app.get('/wrweek1', scrapeController.wrweek1);
-  app.get('/wrseason2016', scrapeController.wrseason2016);
+  app.get('/wrweek1', widereceiversController.week1);
+  app.get('/wrseason2016', widereceiversController.season2016);
+  app.get('/rbweek1', runningbacksController.week1);
+  app.get('/rbseason2016', runningbacksController.season2016);
 
   // user routes
   if (usersController) {

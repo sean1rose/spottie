@@ -1,11 +1,13 @@
 import topics from './topics';
 import users from './users';
-import scrape from './scrape';
+import runningbacks from './runningbacks';
+import widereceivers from './widereceivers';
 
-export { topics, users, scrape };
+export { topics, users, runningbacks, widereceivers };
 
 export default {
   topics,
   users,
-  scrape
+  runningbacks,
+  widereceivers
 };
