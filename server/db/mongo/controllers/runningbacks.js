@@ -7,55 +7,52 @@ import fs from 'fs';
 /**
  * Scrape RB's weeks 1-16
  */
-export const week1 = (req, response) => {
+const week1 = (req, response) => {
   extractWeek(1, response);
 }
-// export function week1(req, response) {
-//   extractWeek(1);
-// }
-export function week2(req, response) {
+const week2 = (req, response) => {
   extractWeek(2, response);
 }
-export function week3(req, response) {
-  extractWeek(3);
+const week3 = (req, response) => {
+  extractWeek(3, response);
 }
-export function week4(req, response) {
-  extractWeek(4);
+const week4 = (req, response) => {
+  extractWeek(4, response);
 }
-export function week5(req, response) {
-  extractWeek(5);
+const week5 = (req, response) => {
+  extractWeek(5, response);
 }
-export function week6(req, response) {
-  extractWeek(6);
+const week6 = (req, response) => {
+  extractWeek(6, response);
 }
-export function week7(req, response) {
-  extractWeek(7);
+const week7 = (req, response) => {
+  extractWeek(7, response);
 }
-export function week8(req, response) {
-  extractWeek(8);
+const week8 = (req, response) => {
+  extractWeek(8, response);
 }
-export function week9(req, response) {
-  extractWeek(9);
+const week9 = (req, response) => {
+  extractWeek(9, response);
 }
-export function week10(req, response) {
+function week10(req, response) {
   extractWeek(10);
 }
-export function week11(req, response) {
+function week11(req, response) {
   extractWeek(11);
 }
-export function week12(req, response) {
+function week12(req, response) {
   extractWeek(12);
 }
-export function week13(req, response) {
+function week13(req, response) {
   extractWeek(13);
 }
-export function week14(req, response) {
+function week14(req, response) {
   extractWeek(14);
 }
-export function week15(req, response) {
+function week15(req, response) {
   extractWeek(15);
 }
-export function week16(req, response) {
+function week16(req, response) {
   extractWeek(16);
 }
 
@@ -126,79 +123,6 @@ const extractWeek = (weekNumber, response) => {
     return response.json(finalRbObj);
   });
 }
-
-
-
-/*
-export function week1(req, response) {
-  // scrape data + add to db
-    // scrape here...
-  var finalUrl = 'http://thehuddle.com/stats/2016/plays_weekly.php?week=1&pos=rb&col=FPTS&ccs=6';
-  var options = {
-    url: finalUrl,
-    headers: {
-      'Origin': 'http://thehuddle.com'
-    }
-  };
-  var finalRbObj_week1 = {};
-
-  request(options, (err, res, html) => {
-    if (!err) {
-      var $ = cheerio.load(html);
-      var rbArray = [];
-      var rbObject = {};
-
-			$('div.mod-table > table > tbody > tr').each(function( index ) {
-				var player = $(this).find('td.t_std_left.align-left > a').text().trim();
-				var children = $(this).children();
-				var rank = parseInt(index) + 1;
-				var playerName = children.find('a').text().trim();
-				var team = children.eq(1).text().trim();
-
-				var touches = parseInt(children.eq(2).text().trim());
-				var carries = parseInt(children.eq(4).text().trim());
-        var rushingYards = parseInt(children.eq(5).text().trim());
-        var rushingTouchdowns = parseInt(children.eq(6).text().trim());
-				var catches = parseInt(children.eq(8).text().trim());
-        var receivingYards = parseInt(children.eq(9).text().trim());
-        var receivingTouchdowns = parseInt(children.eq(10).text().trim());
-        var totalTouchdowns = rushingTouchdowns + receivingTouchdowns;
-        var fumbles = parseInt(children.eq(11).text().trim());
-				
-				var fantasyPts = parseInt(children.eq(3).text().trim());
-				var pointsPerTouch = (fantasyPts / touches);
-
-				var playerObj = {};
-				playerObj['rank'] = rank;
-				playerObj['playerName'] = playerName;
-				playerObj['team'] = team;
-				playerObj['touches'] = touches;
-				playerObj['carries'] = carries;
-        playerObj['rushingYards'] = rushingYards;
-				playerObj['catches'] = catches;
-        playerObj['receivingYards'] = receivingYards;
-        playerObj['receivingTouchdowns'] = receivingTouchdowns;
-        playerObj['totalTouchdowns'] = totalTouchdowns;
-        playerObj['fumbles'] = fumbles;
-				playerObj['fantasyPoints'] = fantasyPts;
-				playerObj['pointsPerTouch'] = pointsPerTouch;
-
-        // can look up by name
-				rbObject[playerName] = playerObj;
-
-        // organized by weekly rank
-				rbArray.push(playerObj);
-
-				finalRbObj_week1['rbObject'] = rbObject;
-				finalRbObj_week1['rbArray'] = rbArray;
-			});
-
-      // console.log('finalRbObj_week1 - ', finalRbObj_week1);
-    }
-    return response.json(finalRbObj_week1);
-  });
-}
-*/
 
 /**
  * Scrape RB's for 2016 Season

@@ -15,6 +15,13 @@ export default (app) => {
   app.get('/wrseason2016', widereceiversController.season2016);
   app.get('/rbweek1', runningbacksController.week1);
   app.get('/rbweek2', runningbacksController.week2);
+  app.get('/rbweek3', runningbacksController.week3);
+  app.get('/rbweek4', runningbacksController.week4);
+  app.get('/rbweek5', runningbacksController.week5);
+  app.get('/rbweek6', runningbacksController.week6);
+  app.get('/rbweek7', runningbacksController.week7);
+  app.get('/rbweek8', runningbacksController.week8);
+  app.get('/rbweek9', runningbacksController.week9);
   app.get('/rbseason2016', runningbacksController.season2016);
 
   // user routes

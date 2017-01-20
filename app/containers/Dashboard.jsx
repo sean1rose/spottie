@@ -23,6 +23,8 @@ class Dashboard extends Component {
       object_rb_week_1: {},
       array_rb_week_2: [],
       object_rb_week_2: {},
+      array_rb_week_3: [],
+      object_rb_week_3: {},
 
       array_rb_season_2016: [],
       object_rb_season_2016: {}
@@ -93,8 +95,15 @@ class Dashboard extends Component {
           array_rb_week_2: res.data.rbArray,
           object_rb_week_2: res.data.rbObject
         });        
-      })
-
+      });
+    fetchWeek('rb', 3)
+      .then(res => {
+        console.log('fetchweek 3 promise returns - ', res);
+        this.setState({
+          array_rb_week_3: res.data.rbArray,
+          object_rb_week_3: res.data.rbObject
+        });        
+      });
     // RUNNING BACKS
     /*
     var rbOptionsWeek1 = {
