@@ -25,6 +25,32 @@ class Dashboard extends Component {
       object_rb_week_2: {},
       array_rb_week_3: [],
       object_rb_week_3: {},
+      array_rb_week_4: [],
+      object_rb_week_4: {},
+      array_rb_week_5: [],
+      object_rb_week_5: {},
+      array_rb_week_6: [],
+      object_rb_week_6: {},
+      array_rb_week_7: [],
+      object_rb_week_7: {},
+      array_rb_week_8: [],
+      object_rb_week_8: {},
+      array_rb_week_9: [],
+      object_rb_week_9: {},
+      array_rb_week_10: [],
+      object_rb_week_10: {},
+      array_rb_week_11: [],
+      object_rb_week_11: {},
+      array_rb_week_12: [],
+      object_rb_week_12: {},
+      array_rb_week_13: [],
+      object_rb_week_13: {},
+      array_rb_week_14: [],
+      object_rb_week_14: {},
+      array_rb_week_15: [],
+      object_rb_week_15: {},
+      array_rb_week_16: [],
+      object_rb_week_16: {},
 
       array_rb_season_2016: [],
       object_rb_season_2016: {}
@@ -32,6 +58,77 @@ class Dashboard extends Component {
   }
 
   componentDidMount() {
+    const fetchWeek = (pos, weekNumber) => {
+      var tmpUrl = `/${pos}week${weekNumber}`;
+      const config = {
+        method: 'get',
+        url: tmpUrl,
+        responseType: 'json'
+      }
+      return axios(config)
+        .then(res => {
+          return res;
+        });
+    }
+    const fetchSeason = (pos, seasonNumber) => {
+      var tmpUrl = `/${pos}season${seasonNumber}`;
+      const config = {
+        method: 'get',
+        url: tmpUrl,
+        responseType: 'json'
+      };
+      return axios(config)
+        .then(res => {
+          return res;
+        });
+    }
+
+    axios.all([fetchWeek('rb', 1), fetchWeek('rb', 2), fetchWeek('rb', 3), fetchWeek('rb', 4), fetchWeek('rb', 5), fetchWeek('rb', 6), fetchWeek('rb', 7), fetchWeek('rb', 8), fetchWeek('rb', 9), fetchWeek('rb', 10), fetchWeek('rb', 11), fetchWeek('rb', 12), fetchWeek('rb', 13), fetchWeek('rb', 14), fetchWeek('rb', 15), fetchWeek('rb', 16), fetchSeason('rb', 2016)])
+      .then(axios.spread((week1, week2, week3, week4, week5, week6, week7, week8, week9, week10, week11, week12, week13, week14, week15, week16, season2016) => {
+        this.setState({
+          array_rb_week_1: week1.data.rbArray,
+          object_rb_week_1: week1.data.rbObject,
+          array_rb_week_2: week2.data.rbArray,
+          object_rb_week_2: week2.data.rbObject,
+          array_rb_week_3: week3.data.rbArray,
+          object_rb_week_3: week3.data.rbObject,
+          array_rb_week_4: week4.data.rbArray,
+          object_rb_week_4: week4.data.rbObject,
+          array_rb_week_5: week5.data.rbArray,
+          object_rb_week_5: week5.data.rbObject,
+          array_rb_week_6: week6.data.rbArray,
+          object_rb_week_6: week6.data.rbObject,
+          array_rb_week_7: week7.data.rbArray,
+          object_rb_week_7: week7.data.rbObject,
+          array_rb_week_8: week8.data.rbArray,
+          object_rb_week_8: week8.data.rbObject,
+          array_rb_week_9: week9.data.rbArray,
+          object_rb_week_9: week9.data.rbObject,
+          array_rb_week_10: week10.data.rbArray,
+          object_rb_week_10: week10.data.rbObject,
+          array_rb_week_11: week10.data.rbArray,
+          object_rb_week_11: week10.data.rbObject,
+          array_rb_week_12: week10.data.rbArray,
+          object_rb_week_12: week10.data.rbObject,
+          array_rb_week_13: week10.data.rbArray,
+          object_rb_week_13: week10.data.rbObject,
+          array_rb_week_14: week10.data.rbArray,
+          object_rb_week_14: week10.data.rbObject,
+          array_rb_week_15: week10.data.rbArray,
+          object_rb_week_15: week10.data.rbObject,
+          array_rb_week_16: week10.data.rbArray,
+          object_rb_week_16: week10.data.rbObject,
+          array_rb_season_2016: season2016.data.rbArray,
+          object_rb_season_2016: season2016.data.rbObject
+        });
+        
+        console.log('this.state - ', this.state);
+      }));
+
+    // RUNNING BACKS
+
+    // WR
+    /*
     var wrOptionsWeek1 = {
       method: 'get',
       url: '/wrweek1',
@@ -39,7 +136,6 @@ class Dashboard extends Component {
     };
     axios(wrOptionsWeek1)
       .then(res => {
-        console.log(' wr week 1- res -> ', res.data);
         this.setState({
           array_receivers_week_1: res.data.arrayOfPlayers,
           object_receivers_week1: res.data.objectOfPlayers
@@ -54,89 +150,16 @@ class Dashboard extends Component {
     };
     axios(wrOptionsSeason)
       .then(res => {
-        console.log('wr 2016 season - res -> ', res.data);
         this.setState({
           array_receivers_season_2016: res.data.arrayOfPlayers,
           object_receivers_season_2016: res.data.objectOfPlayers
         });
         console.log('2 this.state!!! WR SEASON TOTAL - ', this.state);
       });
+      */
     
 
       // LEFT OFF HERE: NEED TO SET UP DRY FETCH SEASON FUNCTION....
-
-
-    const fetchWeek = (pos, weekNumber) => {
-      var tmpUrl = `/${pos}week${weekNumber}`;
-      const config = {
-        method: 'get',
-        url: tmpUrl,
-        responseType: 'json'
-      }
-      return axios(config)
-        .then(res => {
-          return res;
-        });
-    }
-
-    // sets state for week 1
-    fetchWeek('rb', 1)
-      .then(res => {
-        console.log('fetchweek 1 promise returns - ', res);
-        this.setState({
-          array_rb_week_1: res.data.rbArray,
-          object_rb_week_1: res.data.rbObject
-        });
-      });
-    fetchWeek('rb', 2)
-      .then(res => {
-        console.log('fetchweek 2 promise returns - ', res);
-        this.setState({
-          array_rb_week_2: res.data.rbArray,
-          object_rb_week_2: res.data.rbObject
-        });        
-      });
-    fetchWeek('rb', 3)
-      .then(res => {
-        console.log('fetchweek 3 promise returns - ', res);
-        this.setState({
-          array_rb_week_3: res.data.rbArray,
-          object_rb_week_3: res.data.rbObject
-        });        
-      });
-    // RUNNING BACKS
-    /*
-    var rbOptionsWeek1 = {
-      method: 'get',
-      url: '/rbweek1',
-      responseType: 'json'
-    };
-    axios(rbOptionsWeek1)
-      .then(res => {
-        console.log('rb week 1 res - ', res.data);
-        this.setState({
-          array_runningbacks_week_1: res.data.rbArray,
-          object_runningbacks_week1: res.data.rbObject
-        });
-        console.log('3. this.state!!! RB WEEK 1 - ', this.state);
-      });
-
-    var rbOptionsSeason = {
-      method: 'get',
-      url: '/rbseason2016',
-      responseType: 'json'
-    };
-    axios(rbOptionsSeason)
-      .then(res => {
-        console.log('rb 2016 season - ', res.data);
-        this.setState({
-          array_runningbacks_season_2016: res.data.rbArray,
-          object_runningbacks_season_2016: res.data.rbObject
-        });
-        console.log('4 this.state!!! RB SEASON TOTAL - ', this.state);
-        console.log('#1 running back of the season is ', this.state.array_runningbacks_season_2016[0].playerName, ' @ ', this.state.array_runningbacks_season_2016[0].fantasyPtsPerGame, ' fantasy pts/gm');
-      });
-      */
 
   }
 

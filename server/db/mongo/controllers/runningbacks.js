@@ -34,26 +34,26 @@ const week8 = (req, response) => {
 const week9 = (req, response) => {
   extractWeek(9, response);
 }
-function week10(req, response) {
-  extractWeek(10);
+const week10 = (req, response) => {
+  extractWeek(10, response);
 }
-function week11(req, response) {
-  extractWeek(11);
+const week11 = (req, response) => {
+  extractWeek(11, response);
 }
-function week12(req, response) {
-  extractWeek(12);
+const week12 = (req, response) => {
+  extractWeek(12, response);
 }
-function week13(req, response) {
-  extractWeek(13);
+const week13 = (req, response) => {
+  extractWeek(13, response);
 }
-function week14(req, response) {
-  extractWeek(14);
+const week14 = (req, response) => {
+  extractWeek(14, response);
 }
-function week15(req, response) {
-  extractWeek(15);
+const week15 = (req, response) => {
+  extractWeek(15, response);
 }
-function week16(req, response) {
-  extractWeek(16);
+const week16 = (req, response) => {
+  extractWeek(16, response);
 }
 
 // weekly base function...
@@ -127,21 +127,19 @@ const extractWeek = (weekNumber, response) => {
 /**
  * Scrape RB's for 2016 Season
  */
-export const season2016 = (req, response) => {
-  extractWeek(2016, response);
+const season2016 = (req, response) => {
+  extractSeason(2016, response);
 }
-// export function season2016(req, response) {
-//   extractWeek(2016);
-// }
-export function season2015(req, response) {
-  extractWeek(2015);
+
+const season2015 = (req, response) => {
+  extractSeason(2015, response);
 }
-export function season2014(req, response) {
-  extractWeek(2014);
+const season2014 = (req, response) => {
+  extractSeason(2014, response);
 }
 
 // base season extract function
-const extractSeason = (seasonNumber) => {
+const extractSeason = (seasonNumber, response) => {
   // scrape data + add to db
     // scrape here...
   var finalUrl = `http://thehuddle.com/stats/${seasonNumber}/plays_std.php?ccs=6&pos=rb`
@@ -211,78 +209,6 @@ const extractSeason = (seasonNumber) => {
 
 }
 
-
-/*
-export function season2016(req, response) {
-  // scrape data + add to db
-    // scrape here...
-  var finalUrl = 'http://thehuddle.com/stats/2016/plays_std.php?ccs=6&pos=rb';
-  var options = {
-    url: finalUrl,
-    headers: {
-      'Origin': 'http://thehuddle.com'
-    }
-  };
-  var finalRbObj = {};
-
-  request(options, (err, res, html) => {
-    if (!err) {
-      var $ = cheerio.load(html);
-      var rbArray = [];
-      var rbObject = {};
-
-      $('div.mod-table > table > tbody > tr').each(function( index ) {
-        var player = $(this).find('td.t_std_left.align-left > a').text().trim();
-        
-        var children = $(this).children();
-        var rank = parseInt(index) + 1;
-        var playerName = children.find('a').text().trim();
-        var team = children.eq(1).text().trim();
-        var touches = parseInt(children.eq(2).text().trim());
-        var fantasyPts = parseInt(children.eq(3).text().trim());
-        var games = parseInt(children.eq(4).text().trim());
-        var fantasyPtsPerGame = parseInt(children.eq(5).text().trim());
-        var carries = parseInt(children.eq(6).text().trim());
-        var rushingYards = parseInt(children.eq(7).text().trim());
-        var rushingTds = parseInt(children.eq(8).text().trim());
-        var targets = parseInt(children.eq(9).text().trim());
-        var catches = parseInt(children.eq(10).text().trim());
-        var receivingYards = parseInt(children.eq(11).text().trim());
-        var receivingTds = parseInt(children.eq(12).text().trim());
-        var fumbles = parseInt(children.eq(13).text().trim());
-        var pointsPerTouch = (fantasyPts / touches);
-        
-        var playerObj = {};
-        playerObj['rank'] = rank;
-        playerObj['playerName'] = playerName;
-        playerObj['team'] = team;
-        playerObj['touches'] = touches;
-        playerObj['fantasyPoints'] = fantasyPts;
-        playerObj['games'] = games;
-        playerObj['fantasyPtsPerGame'] = fantasyPtsPerGame;
-        playerObj['carries'] = carries;
-        playerObj['rushingYards'] = rushingYards;
-        playerObj['targets'] = targets;
-        playerObj['catches'] = catches;
-        playerObj['receivingYards'] = receivingYards;
-        playerObj['receivingTds'] = receivingTds;
-        playerObj['fumbles'] = fumbles;
-        playerObj['pointsPerTouch'] = pointsPerTouch;
-
-        rbObject[playerName] = playerObj;
-
-        rbArray.push(playerObj);
-
-        finalRbObj_2016season['rbObject'] = rbObject;
-        finalRbObj_2016season['rbArray'] = rbArray;
-      });
-      // console.log('finalRbObj_2016season - ', finalRbObj_2016season);
-    }
-    return response.json(finalRbObj_2016season);
-  });
-}
-*/
-
 export default {
   week1,
   week2,
@@ -300,7 +226,7 @@ export default {
   week14,
   week15,
   week16,
-  season2016,
+  season2014,
   season2015,
-  season2014
+  season2016
 };
