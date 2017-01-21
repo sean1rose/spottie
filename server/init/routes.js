@@ -12,6 +12,23 @@ const runningbacksController = controllers && controllers.runningbacks;
 
 export default (app) => {
   app.get('/wrweek1', widereceiversController.week1);
+  app.get('/wrweek2', widereceiversController.week2);
+  app.get('/wrweek3', widereceiversController.week3);
+  app.get('/wrweek4', widereceiversController.week4);
+  app.get('/wrweek5', widereceiversController.week5);
+  app.get('/wrweek6', widereceiversController.week6);
+  app.get('/wrweek7', widereceiversController.week7);
+  app.get('/wrweek8', widereceiversController.week8);
+  app.get('/wrweek9', widereceiversController.week9);
+  app.get('/wrweek10', widereceiversController.week10);
+  app.get('/wrweek11', widereceiversController.week11);
+  app.get('/wrweek12', widereceiversController.week12);
+  app.get('/wrweek13', widereceiversController.week13);
+  app.get('/wrweek14', widereceiversController.week14);
+  app.get('/wrweek15', widereceiversController.week15);
+  app.get('/wrweek16', widereceiversController.week16);
+  app.get('/wrseason2014', widereceiversController.season2016);
+  app.get('/wrseason2015', widereceiversController.season2016);
   app.get('/wrseason2016', widereceiversController.season2016);
   app.get('/rbweek1', runningbacksController.week1);
   app.get('/rbweek2', runningbacksController.week2);
@@ -23,12 +40,14 @@ export default (app) => {
   app.get('/rbweek8', runningbacksController.week8);
   app.get('/rbweek9', runningbacksController.week9);
   app.get('/rbweek10', runningbacksController.week10);
-  app.get('/rbweek11', runningbacksController.week10);
-  app.get('/rbweek12', runningbacksController.week10);
-  app.get('/rbweek13', runningbacksController.week10);
-  app.get('/rbweek14', runningbacksController.week10);
-  app.get('/rbweek15', runningbacksController.week10);
-  app.get('/rbweek16', runningbacksController.week10);
+  app.get('/rbweek11', runningbacksController.week11);
+  app.get('/rbweek12', runningbacksController.week12);
+  app.get('/rbweek13', runningbacksController.week13);
+  app.get('/rbweek14', runningbacksController.week14);
+  app.get('/rbweek15', runningbacksController.week15);
+  app.get('/rbweek16', runningbacksController.week16);
+  app.get('/rbseason2014', runningbacksController.season2016);
+  app.get('/rbseason2015', runningbacksController.season2016);
   app.get('/rbseason2016', runningbacksController.season2016);
 
   // user routes

@@ -1,5 +1,3 @@
-import _ from 'lodash';
-// import Topic from '../models/topics';
 import cheerio from 'cheerio';
 import request from 'request';
 import fs from 'fs';
@@ -206,8 +204,7 @@ const extractSeason = (seasonNumber, response) => {
     }
     return response.json(finalRbObj);
   });
-
-}
+};
 
 export default {
   week1,

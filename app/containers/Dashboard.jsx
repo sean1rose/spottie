@@ -46,9 +46,12 @@ class Dashboard extends Component {
       object_wr_week_15: {},
       array_wr_week_16: [],
       object_wr_week_16: {},
-
+      array_wr_season_2014: [],
+      object_wr_season_2014: {},
+      array_wr_season_2015: [],
+      object_wr_season_2015: {},
       array_wr_season_2016: [],
-      object_wr_season_2016: {}
+      object_wr_season_2016: {},
 
       array_rb_week_1: [],
       object_rb_week_1: {},
@@ -83,6 +86,10 @@ class Dashboard extends Component {
       array_rb_week_16: [],
       object_rb_week_16: {},
 
+      array_rb_season_2014: {},
+      object_rb_season_2014: {},
+      array_rb_season_2015: [],
+      object_rb_season_2015: {},
       array_rb_season_2016: [],
       object_rb_season_2016: {}
     });
@@ -114,8 +121,8 @@ class Dashboard extends Component {
         });
     }
 
-    axios.all([fetchWeek('rb', 1), fetchWeek('rb', 2), fetchWeek('rb', 3), fetchWeek('rb', 4), fetchWeek('rb', 5), fetchWeek('rb', 6), fetchWeek('rb', 7), fetchWeek('rb', 8), fetchWeek('rb', 9), fetchWeek('rb', 10), fetchWeek('rb', 11), fetchWeek('rb', 12), fetchWeek('rb', 13), fetchWeek('rb', 14), fetchWeek('rb', 15), fetchWeek('rb', 16), fetchSeason('rb', 2016)])
-      .then(axios.spread((week1, week2, week3, week4, week5, week6, week7, week8, week9, week10, week11, week12, week13, week14, week15, week16, season2016) => {
+    axios.all([fetchWeek('rb', 1), fetchWeek('rb', 2), fetchWeek('rb', 3), fetchWeek('rb', 4), fetchWeek('rb', 5), fetchWeek('rb', 6), fetchWeek('rb', 7), fetchWeek('rb', 8), fetchWeek('rb', 9), fetchWeek('rb', 10), fetchWeek('rb', 11), fetchWeek('rb', 12), fetchWeek('rb', 13), fetchWeek('rb', 14), fetchWeek('rb', 15), fetchWeek('rb', 16), fetchSeason('rb', 2014), fetchSeason('rb', 2015), fetchSeason('rb', 2016)])
+      .then(axios.spread((week1, week2, week3, week4, week5, week6, week7, week8, week9, week10, week11, week12, week13, week14, week15, week16, season2014, season2015, season2016) => {
         this.setState({
           array_rb_week_1: week1.data.rbArray,
           object_rb_week_1: week1.data.rbObject,
@@ -149,6 +156,10 @@ class Dashboard extends Component {
           object_rb_week_15: week15.data.rbObject,
           array_rb_week_16: week16.data.rbArray,
           object_rb_week_16: week16.data.rbObject,
+          array_rb_season_2014: season2014.data.rbArray,
+          object_rb_season_2014: season2014.data.rbObject,
+          array_rb_season_2015: season2015.data.rbArray,
+          object_rb_season_2015: season2015.data.rbObject,
           array_rb_season_2016: season2016.data.rbArray,
           object_rb_season_2016: season2016.data.rbObject
         });
@@ -159,8 +170,8 @@ class Dashboard extends Component {
     // RUNNING BACKS
 
     // WR
-    axios.all([fetchWeek('wr', 1), fetchWeek('wr', 2), fetchWeek('wr', 3), fetchWeek('wr', 4), fetchWeek('wr', 5), fetchWeek('wr', 6), fetchWeek('wr', 7), fetchWeek('wr', 8), fetchWeek('wr', 9), fetchWeek('wr', 10), fetchWeek('wr', 11), fetchWeek('wr', 12), fetchWeek('wr', 13), fetchWeek('wr', 14), fetchWeek('wr', 15), fetchWeek('wr', 16), fetchSeason('wr', 2016)])
-      .then(axios.spread((week1, week2, week3, week4, week5, week6, week7, week8, week9, week10, week11, week12, week13, week14, week15, week16, season2016) => {
+    axios.all([fetchWeek('wr', 1), fetchWeek('wr', 2), fetchWeek('wr', 3), fetchWeek('wr', 4), fetchWeek('wr', 5), fetchWeek('wr', 6), fetchWeek('wr', 7), fetchWeek('wr', 8), fetchWeek('wr', 9), fetchWeek('wr', 10), fetchWeek('wr', 11), fetchWeek('wr', 12), fetchWeek('wr', 13), fetchWeek('wr', 14), fetchWeek('wr', 15), fetchWeek('wr', 16), fetchSeason('wr', 2014), fetchSeason('wr', 2015), fetchSeason('wr', 2016)])
+      .then(axios.spread((week1, week2, week3, week4, week5, week6, week7, week8, week9, week10, week11, week12, week13, week14, week15, week16, season2014, season2015, season2016) => {
         this.setState({
           array_wr_week_1: week1.data.wrArray,
           object_wr_week_1: week1.data.wrObject,
@@ -194,6 +205,10 @@ class Dashboard extends Component {
           object_wr_week_15: week15.data.wrObject,
           array_wr_week_16: week16.data.wrArray,
           object_wr_week_16: week16.data.wrObject,
+          array_wr_season_2014: season2014.data.wrArray,
+          object_wr_season_2014: season2014.data.wrObject,
+          array_wr_season_2015: season2015.data.wrArray,
+          object_wr_season_2015: season2015.data.wrObject,
           array_wr_season_2016: season2016.data.wrArray,
           object_wr_season_2016: season2016.data.wrObject
         });
